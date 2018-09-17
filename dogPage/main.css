@@ -38,6 +38,12 @@ samp {
     display: none;
 }
 
+iframe {
+    border: 0px;
+    border: none;
+    position: absolute;
+}
+
 img {
     animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
     background: transparent;
