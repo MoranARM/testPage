@@ -38,10 +38,11 @@ samp {
     display: none;
 }
 
-iframe {
-    border: 0px;
+ifram {
+    border: 0;
     border: none;
     position: absolute;
+    
 }
 
 img {
