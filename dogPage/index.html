@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html ng-app>
     
     <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular.min.js"></script>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Dog Page</title>
         <meta name="description" content="A page about dogs">
         <link rel="stylesheet" href="main.css">
-        <iframe width=960px height=0px src="https://www.youtuberepeater.com/watch?v=2DuIUBX3MZw" allowfullscreen></iframe>
+        <iframe width=960px height=0px src="https://www.youtuberepeater.com/watch?v={{songName}}" allowfullscreen></iframe>
     </head>
     <body>
         
@@ -50,5 +51,8 @@
             Dogs can be called Doggos.
         </samp>
         
+        <label>Song for Dogs to listen to:</label>
+		<input type="text" ng-model="songName" placeholder="Enter a youtube url ending, ex: 2DuIUBX3MZw">
+		<h2>Now Playing YouTube.com/watch?v={{name}}!</h2>
     </body>
 </html>
