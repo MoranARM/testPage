@@ -1,6 +1,6 @@
 # testPage
 *My first html and css page: [Dog Page](https://moranarm.github.io/testPage/dogPage/index.html)
-Some rather difficult code implementing the NEAT algorithm in my Pacman game
+*Some rather difficult code implementing the NEAT algorithm in my Pacman game
 ```java
 void addNodeMutation(ArrayList<Counter> innovation){//connection gene is randomly chosen and replaced with two new connections
     if(connections.size() == 0){
