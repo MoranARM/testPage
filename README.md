@@ -1,4 +1,4 @@
-# testPage
+# Alex's Coding Journey
 * My first html and css page: [Dog Page](https://moranarm.github.io/testPage/dogPage/index.html)
 * Some rather difficult code implementing the NEAT algorithm in my Pacman game
 ```java
