@@ -1,5 +1,9 @@
 # Alex's Coding Journey
 * My first html and css page: [Dog Page](https://moranarm.github.io/testPage/dogPage/index.html)
+* A line in p5.js that converts a p5color to its opposite rgb values, used in dice
+```javascript
+fill(255-parseInt(di.col.toString(['rgb']).substring(5, di.col.toString(['rgb']).indexOf(",")), 10), 255-parseInt(di.col.toString(['rgb']).slice(di.col.toString(['rgb']).indexOf(",")+1).substring(0, di.col.toString(['rgb']).slice(di.col.toString(['rgb']).indexOf(",")+1).indexOf(",")), 10) , 255-parseInt(di.col.toString(['rgb']).slice(di.col.toString(['rgb']).indexOf(",")+1).substring(di.col.toString(['rgb']).slice(di.col.toString(['rgb']).indexOf(",")+1).indexOf(",")+1).substring(0, di.col.toString(['rgb']).slice(di.col.toString(['rgb']).indexOf(",")+1).substring(di.col.toString(['rgb']).slice(di.col.toString(['rgb']).indexOf(",")+1).indexOf(",")+1).indexOf(",")), 10));
+```
 * Some rather difficult code implementing the NEAT algorithm in my Pacman game
 ```java
 void addNodeMutation(ArrayList<Counter> innovation){//connection gene is randomly chosen and replaced with two new connections
